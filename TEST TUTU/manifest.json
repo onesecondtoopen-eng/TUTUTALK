@@ -1,0 +1,13 @@
+{
+  "background_color": "#f8e7c4",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "TUTUTALK",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "TUTUTALK",
+  "start_url": "/",
+  "theme_color": "#ffd0f8",
+  "description": "Game edukasi anak untuk belajar huruf, kata, dan angka",
+  "id": "com.tututalk.app"
+}
