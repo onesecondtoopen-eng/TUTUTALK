@@ -6,13 +6,13 @@
   <meta name="theme-color" content="#fff0d0">
   <title>TUTUTALK Clean</title>
   <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="style.css?v=initial-loading1">
+  <link rel="stylesheet" href="style.css?v=responsive-add-nav1">
 </head>
 <body data-screen="home">
   <main class="app" aria-label="TUTUTALK">
     <section id="loadingScreen" class="loading-screen" aria-label="Memuat TUTUTALK" aria-live="polite">
       <div class="loading-panel">
-        <img class="loading-mascot" src="ASET/MASKOT/maskot yay.png" alt="Tutu">
+        <img class="loading-mascot" src="../ASET/MASKOT/maskot yay.png" alt="Tutu">
         <div class="loading-copy">
           <span>TUTUTALK</span>
           <h1>Sedang menyiapkan belajar</h1>
@@ -25,12 +25,12 @@
     </section>
 
     <section id="homeScreen" class="screen home-screen is-active">
-      <img class="brand-logo" src="ASET/LOGO.png" alt="TUTUTALK">
+      <img class="brand-logo" src="../ASET/LOGO.png" alt="TUTUTALK">
       <div class="home-layout">
-        <img id="homeMascot" class="home-mascot" src="ASET/MASKOT/maskot hi.png" alt="Tutu">
-        <img class="home-panel" src="ASET/PANEL HOME.png" alt="Yuk belajar dan bicara bareng Tutu!">
+        <img id="homeMascot" class="home-mascot" src="../ASET/MASKOT/maskot hi.png" alt="Tutu">
+        <img class="home-panel" src="../ASET/PANEL HOME.png" alt="Yuk belajar dan bicara bareng Tutu!">
         <button id="startButton" class="image-action start-action" type="button" aria-label="Mulai belajar">
-          <img src="ASET/button/button mulai.png" alt="">
+          <img src="../ASET/button/button mulai.png" alt="">
         </button>
       </div>
     </section>
@@ -43,13 +43,13 @@
         </header>
         <div class="category-grid">
           <button class="category-card" type="button" data-mode="letters" aria-label="Belajar Huruf">
-            <img src="ASET/card and panel/card belajar huruf.png" alt="">
+            <img src="../ASET/card and panel/card belajar huruf.png" alt="">
           </button>
-          <button class="category-card" type="button" data-mode="numbers" data-locked-src="ASET/card and panel/card belajar angka lock.png" data-unlocked-src="ASET/card and panel/card belajar angka unlock.png" aria-label="Belajar Angka">
-            <img src="ASET/card and panel/card belajar angka unlock.png" alt="">
+          <button class="category-card" type="button" data-mode="numbers" data-locked-src="../ASET/card and panel/card belajar angka lock.png" data-unlocked-src="../ASET/card and panel/card belajar angka unlock.png" aria-label="Belajar Angka">
+            <img src="../ASET/card and panel/card belajar angka unlock.png" alt="">
           </button>
-          <button class="category-card" type="button" data-mode="words" data-locked-src="ASET/card and panel/card belajar kata lock.png" data-unlocked-src="ASET/card and panel/card belajar kata unlock.png" aria-label="Belajar Kata">
-            <img src="ASET/card and panel/card belajar kata unlock.png" alt="">
+          <button class="category-card" type="button" data-mode="words" data-locked-src="../ASET/card and panel/card belajar kata lock.png" data-unlocked-src="../ASET/card and panel/card belajar kata unlock.png" aria-label="Belajar Kata">
+            <img src="../ASET/card and panel/card belajar kata unlock.png" alt="">
           </button>
         </div>
       </div>
@@ -58,14 +58,14 @@
         <header class="lesson-head">
           <span class="lesson-kicker">Belajar Huruf</span>
           <button class="lesson-home" type="button" aria-label="Kembali ke pilihan belajar">
-            <img src="ASET/navbar/beranda.png" alt="">
+            <img src="../ASET/navbar/beranda.png" alt="">
           </button>
           <div class="lesson-title">
             <h1>Tarik huruf ke gambar yang cocok</h1>
           </div>
           <b id="letterProgress" class="lesson-progress">1 / 26</b>
           <div class="mood-pill">
-            <img id="letterMoodImage" src="ASET/indikator/awan sangat senang.png" alt="Semangat!">
+            <img id="letterMoodImage" src="../ASET/indikator/awan sangat senang.png" alt="Semangat!">
             <span id="letterMood">Ayo coba!</span>
             <time id="letterTimer">00:00</time>
           </div>
@@ -73,25 +73,25 @@
 
         <div class="letter-stage">
           <aside class="guide">
-            <img id="letterMascot" src="ASET/MASKOT/maskot happy.png" alt="">
+            <img id="letterMascot" src="../ASET/MASKOT/maskot happy.png" alt="">
             <span id="letterBubble">Pilih gambarnya!</span>
           </aside>
           <section class="glyph-zone">
             <button id="letterCard" class="glyph-card" type="button">
-              <img src="ASET/card and panel/panel huruf dan angka.png" alt="">
+              <img src="../ASET/card and panel/panel huruf dan angka.png" alt="">
               <span id="letterGlyph">A</span>
             </button>
             <p id="letterHint">Pilih gambar yang cocok</p>
             <div class="letter-card-nav">
-              <button id="letterPrev" type="button" aria-label="Huruf sebelumnya"><img src="ASET/button/kiri icon.png" alt=""></button>
-              <button id="letterNext" type="button" aria-label="Huruf berikutnya"><img src="ASET/button/kanan icon.png" alt=""></button>
+              <button id="letterPrev" type="button" aria-label="Huruf sebelumnya"><img src="../ASET/button/kiri icon.png" alt=""></button>
+              <button id="letterNext" type="button" aria-label="Huruf berikutnya"><img src="../ASET/button/kanan icon.png" alt=""></button>
             </div>
           </section>
           <section id="choiceGrid" class="choice-grid choice-1" aria-label="Pilihan gambar"></section>
         </div>
 
         <div class="mini-tools">
-          <button id="letterSound" type="button" aria-label="Dengarkan"><img src="ASET/button/volume icon.png" alt=""></button>
+          <button id="letterSound" type="button" aria-label="Dengarkan"><img src="../ASET/button/volume icon.png" alt=""></button>
         </div>
       </section>
 
@@ -99,14 +99,14 @@
         <header class="lesson-head">
           <span class="lesson-kicker">Belajar Angka</span>
           <button class="lesson-home" type="button" aria-label="Kembali ke pilihan belajar">
-            <img src="ASET/navbar/beranda.png" alt="">
+            <img src="../ASET/navbar/beranda.png" alt="">
           </button>
           <div class="lesson-title">
             <h1>Cocokkan angka dengan benar</h1>
           </div>
           <b id="numberProgress" class="lesson-progress">1 / 15</b>
           <div class="mood-pill">
-            <img id="numberMoodImage" src="ASET/indikator/awan sangat senang.png" alt="Semangat!">
+            <img id="numberMoodImage" src="../ASET/indikator/awan sangat senang.png" alt="Semangat!">
             <span id="numberMood">Semangat!</span>
             <time id="numberTimer">00:00</time>
           </div>
@@ -114,18 +114,18 @@
 
         <div class="number-stage">
           <aside class="guide">
-            <img src="ASET/MASKOT/maskot senang.png" alt="">
+            <img src="../ASET/MASKOT/maskot senang.png" alt="">
             <span>Hitung yuk!</span>
           </aside>
           <section class="glyph-zone">
             <button id="numberCard" class="glyph-card number-glyph-card" type="button">
-              <img src="ASET/card and panel/panel huruf dan angka.png" alt="">
+              <img src="../ASET/card and panel/panel huruf dan angka.png" alt="">
               <span id="numberGlyph">1</span>
             </button>
             <p id="numberHint">Pilih jumlah yang pas</p>
-            <div class="letter-card-nav number-card-nav">
-              <button id="numberPrev" type="button" aria-label="Angka sebelumnya"><img src="ASET/button/kiri icon.png" alt=""></button>
-              <button id="numberNext" type="button" aria-label="Angka berikutnya"><img src="ASET/button/kanan icon.png" alt=""></button>
+            <div id="numberCardNav" class="letter-card-nav number-card-nav">
+              <button id="numberPrev" type="button" aria-label="Angka sebelumnya"><img src="../ASET/button/kiri icon.png" alt=""></button>
+              <button id="numberNext" type="button" aria-label="Angka berikutnya"><img src="../ASET/button/kanan icon.png" alt=""></button>
             </div>
           </section>
           <section class="number-answers">
@@ -141,14 +141,14 @@
         <header class="lesson-head">
           <span class="lesson-kicker">Belajar Kata</span>
           <button class="lesson-home" type="button" aria-label="Kembali ke pilihan belajar">
-            <img src="ASET/navbar/beranda.png" alt="">
+            <img src="../ASET/navbar/beranda.png" alt="">
           </button>
           <div class="lesson-title">
             <h1>Susun kata menjadi kalimat</h1>
           </div>
-          <b id="wordProgress" class="lesson-progress">1 / 10</b>
+          <b id="wordProgress" class="lesson-progress">1 / 20</b>
           <div class="mood-pill">
-            <img id="wordMoodImage" src="ASET/indikator/awan sangat senang.png" alt="Semangat!">
+            <img id="wordMoodImage" src="../ASET/indikator/awan sangat senang.png" alt="Semangat!">
             <span id="wordMood">Semangat!</span>
             <time id="wordTimer">00:00</time>
           </div>
@@ -156,15 +156,15 @@
 
         <div class="word-stage">
           <aside class="guide">
-            <img src="ASET/MASKOT/maskot ide.png" alt="">
+            <img src="../ASET/MASKOT/maskot ide.png" alt="">
             <span>Susun yuk!</span>
           </aside>
+          <div id="wordCardNav" class="letter-card-nav word-card-nav">
+            <button id="wordPrev" type="button" aria-label="Kata sebelumnya"><img src="../ASET/button/kiri icon.png" alt=""></button>
+            <button id="wordNext" type="button" aria-label="Kata berikutnya"><img src="../ASET/button/kanan icon.png" alt=""></button>
+          </div>
           <section id="sentenceSlots" class="sentence-slots"></section>
           <section id="wordBank" class="word-bank"></section>
-          <div class="letter-card-nav word-card-nav">
-            <button id="wordPrev" type="button" aria-label="Kalimat sebelumnya"><img src="ASET/button/kiri icon.png" alt=""></button>
-            <button id="wordNext" type="button" aria-label="Kalimat berikutnya"><img src="ASET/button/kanan icon.png" alt=""></button>
-          </div>
         </div>
       </section>
     </section>
@@ -218,7 +218,7 @@
           </article>
           <article data-kind="words">
             <span>Kata</span>
-            <b id="wordsStat">0 / 10</b>
+            <b id="wordsStat">0 / 20</b>
             <small id="wordsAverage">Rata-rata 0 detik</small>
           </article>
         </div>
@@ -299,11 +299,11 @@
     </section>
 
     <nav class="bottom-nav" aria-label="Navigasi utama">
-      <button class="nav-item is-active" type="button" data-screen="home" aria-label="Beranda"><img src="ASET/navbar/beranda.png" alt=""></button>
-      <button class="nav-item" type="button" data-screen="learn" aria-label="Belajar"><img src="ASET/navbar/belajar.png" alt=""></button>
-      <button class="nav-item" type="button" data-screen="collection" aria-label="Koleksi"><img src="ASET/navbar/koleksi.png" alt=""></button>
-      <button class="nav-item" type="button" data-screen="parent" aria-label="Orang tua"><img src="ASET/navbar/orang tua.png" alt=""></button>
-      <button class="nav-item" type="button" data-screen="settings" aria-label="Pengaturan"><img src="ASET/navbar/pengaturan.png" alt=""></button>
+      <button class="nav-item is-active" type="button" data-screen="home" aria-label="Beranda"><img src="../ASET/navbar/beranda.png" alt=""></button>
+      <button class="nav-item" type="button" data-screen="learn" aria-label="Belajar"><img src="../ASET/navbar/belajar.png" alt=""></button>
+      <button class="nav-item" type="button" data-screen="collection" aria-label="Koleksi"><img src="../ASET/navbar/koleksi.png" alt=""></button>
+      <button class="nav-item" type="button" data-screen="parent" aria-label="Orang tua"><img src="../ASET/navbar/orang tua.png" alt=""></button>
+      <button class="nav-item" type="button" data-screen="settings" aria-label="Pengaturan"><img src="../ASET/navbar/pengaturan.png" alt=""></button>
     </nav>
 
     <div id="rewardOverlay" class="reward-overlay" role="dialog" aria-modal="true">
@@ -311,7 +311,7 @@
         <button id="rewardClose" class="reward-close" type="button" aria-label="Tutup">
           <span aria-hidden="true">x</span>
         </button>
-        <img src="ASET/MASKOT/maskot yay.png" alt="">
+        <img src="../ASET/MASKOT/maskot yay.png" alt="">
         <div>
           <h2 id="rewardTitle">Bagus!</h2>
           <p id="rewardText">Jawaban benar.</p>
@@ -332,16 +332,16 @@
         </header>
         <div class="tutor-demo" aria-hidden="true">
           <div class="tutor-letter-card">
-            <img src="ASET/card and panel/panel huruf dan angka.png" alt="">
+            <img src="../ASET/card and panel/panel huruf dan angka.png" alt="">
             <b>A</b>
           </div>
           <div class="tutor-path"></div>
           <div class="tutor-picture-card">
-            <img src="ASET/HEWAN/ayam.png" alt="">
+            <img src="../ASET/HEWAN/ayam.png" alt="">
             <span>Ayam</span>
           </div>
           <div class="tutor-hand">
-            <img src="ASET/icon tangan.png" alt="">
+            <img src="../ASET/icon tangan.png" alt="">
           </div>
         </div>
         <button id="letterTutorStart" class="tutor-start" type="button">Mulai coba</button>
@@ -349,6 +349,6 @@
     </div>
   </main>
 
-  <script src="app.js?v=initial-loading1"></script>
+  <script src="app.js?v=responsive-add-nav1"></script>
 </body>
 </html>
